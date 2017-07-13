@@ -613,11 +613,13 @@ ul.main-social li a:hover, .teams .member .member-hover .footer ul.main-social.m
   padding-top: 40px;
   background: #7952f2;
   color: #ffffff;
+  position: sticky;
 }
 .testimonials .testimonial .person img {
   max-width: 120px;
   max-height: 120px;
   border-radius: 100%;
+  display: inline-block;
 }
 .testimonials .testimonial .person h2, .testimonials .testimonial .person h3, .testimonials .testimonial .person h3 {
   margin-top: 20px;
@@ -895,4 +897,4 @@ footer .footer .copyright-text {
 /** Stylesheet End**/
 /**============================================**/
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=sticky.css.map */
