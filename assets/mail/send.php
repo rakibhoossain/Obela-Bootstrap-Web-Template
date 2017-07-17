@@ -1,10 +1,10 @@
 <?php 
 $sitename='www.domain.com';
+$owner_email='youremail@domail.com';
 $name=$email=$msg='';
 $error='';
 //Mail variables
 $headers=$subject=$messageBody="";
-$owner_email='serakib@gmail.com';
 
 //---------------------------------------------------------
 	//Get data
