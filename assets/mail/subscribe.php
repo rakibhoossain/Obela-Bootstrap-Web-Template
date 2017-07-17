@@ -1,5 +1,5 @@
 <?php
-$owner_email="serakib@gmail.com";
+$owner_email="yourmail@domain.com";
 $sitename="www.schoolz.com";
 //$name="Visitor";
 //$email="example@gmail.com";
@@ -39,7 +39,6 @@ $msg_owner='<a href="http://'.$sitename.'">'.$sitename.'</a>'."\n".'<br>'.'This 
 	}catch(Exception $e){
 		$error= $e->getMessage();
 	}
-$error='';
 $outp= '{"error":"'.$error.'"}';
 echo($outp);	
 ?>
