@@ -24,10 +24,19 @@ $('.main-slider').owlCarousel({
     center: true,
     items:1,
     loop:true,
+    autoplay:true,
     margin:0,
     responsive: { 0: {items: 1} }
 });
 
+  $('.main-slider').on('translate.owl.carousel',function(){
+    $('.slide h1:odd').removeClass('animated fadeInUp').css("opacity","0.02");
+    $('.slide h1:even').removeClass('animated fadeInDown').css("opacity","0.02");
+  });
+  $('.main-slider').on('translated.owl.carousel',function(){
+    $('.slide h1:odd').addClass('animated fadeInUp').css("opacity","1");
+    $('.slide h1:even').addClass('animated fadeInDown').css("opacity","1");
+  });
 //===========Testimonial Slider=============
               var owl = $('.testimonial-slide');
               owl.owlCarousel({
